@@ -50,5 +50,6 @@ def main():
     print(radius_area_string)
     print(my_stats_string)
 
-# call main and display all the output
-main()
+# only call main() and display output if this script is executed directly
+if __name__ == "__main__":
+    main()  # Run the module main() function
