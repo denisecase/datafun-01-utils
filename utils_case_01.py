@@ -1,4 +1,5 @@
-'''
+''' ITERATION 1
+
 Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
 
 This module provides a simple, reusable foundation for my analytics projects. 
@@ -23,40 +24,35 @@ Here's what a first draft of my utils_case.py might look like:
 4. I'll add the boilerplate conditional execution code so I only run the main() function when 
    this script is executed directly (but not when I import it into another file).
 
-I'll test it on my machine or in an online interpreter to make sure this simple version runs correctly before continuing.
+I'll test it in an online interpreter to ensure this version runs correctly before continuing.
 '''
 
 #####################################
-# Declare a variable named byline.
+# Declare a global variable named byline.
 #####################################
 
-byline: str = 'Byline for all my analytics projects'
+byline: str = 'Stellar Analytics: Delivering Professional Insights'
 
 #####################################
-# Define a main() function for my module.
+# Define a main() function for this module.
 #####################################
 
 # Create a function named main.
 # A function is a block of code that performs a specific task.
-# This function will simply print my byline variable to the console.
-# Add a type hint to indicate that this function doesn't return anything when called (that is, it has a Python type of None).
-# It doesn't need any additional information passed in, so there's nothing needed inside the parentheses.
+# This function will simply print the byline to the console.
+# Add a type hint to indicate that this function doesn't return anything when called 
+# (that is, it has a Python type of None).
+# It doesn't need any additional information passed in, 
+# so there's nothing needed inside the parentheses.
+# Everything afer the colon (:) must be indented (usually 4 spaces)
 
 def main() -> None:
     '''Print the byline to the console when this function is called.'''
-    # Indent everything after the colon when defining a function.
-    # Start with a docstring whenever declaring a function.
-    # Provide the indented statements below.
     print(byline)
 
 #####################################
 # Conditional Execution - Only call main() when executing this module as a script.
 #####################################
 
-# This part ensures that the main function runs when we execute the script.
-# It's a standard practice in Python, so you don't need to change anything here.
-
 if __name__ == '__main__':
-    # Call my main function by writing the function name immediately followed by open & close parentheses.
-    # Indent everything after the colon above.
     main()
