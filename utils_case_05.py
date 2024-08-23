@@ -6,8 +6,8 @@ This module provides a simple, reusable foundation for my analytics projects.
 
 Process:
 
-In this iteration, I enhance the byline to include key details about skills
-and client satisfaction scores. This makes the byline more informative and professional, 
+In this iteration, I enhance the byline to include calculated statistics. 
+This makes the byline more informative and professional, 
 ready for use in future projects.
 '''
 
