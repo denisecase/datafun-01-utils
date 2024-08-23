@@ -19,6 +19,9 @@ In this fourth iteration, I introduce some basic statistics using Python.
 # In Python, we can import modules to add extra tools and functions.
 # Below, we're importing:
 # - `statistics`: This gives us tools to calculate things like averages.
+# Use CTRL F and type statistics to see where it is used in the code. 
+# Did you find statistics.mean()?
+# Did you find statistics.stdev()?
 
 import statistics
 
@@ -49,7 +52,7 @@ client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 #   and are ready for use in the byline.
 #####################################
 
-# Calculate basic statistics using built-in functions and the statistics module
+# Calculate basic stats using built-in functions min(), max() and statistics module functions mean() and stdev().
 min_score: float = min(client_satisfaction_scores)  
 max_score: float = max(client_satisfaction_scores)  
 mean_score: float = statistics.mean(client_satisfaction_scores)  
