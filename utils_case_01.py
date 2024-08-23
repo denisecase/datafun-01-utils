@@ -3,15 +3,12 @@
 Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
 
 This module provides a simple, reusable foundation for my analytics projects. 
-
 When we work hard to write useful code, we want it to be reusable.
-
 A good byline could be used in every Python analytics project we do.
 
 Process:
 
 We don't write code from top to bottom; instead, we often write it from the outside in.
-
 Here's what a first draft of my utils_case.py might look like:
 
 1. I start with this docstring at the very beginning.
