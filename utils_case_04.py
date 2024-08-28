@@ -5,7 +5,6 @@ Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
 This module provides a simple, reusable foundation for my analytics projects. 
 
 Process:
-
 In this fourth iteration, I introduce some basic statistics using Python.
     - min() is a built in function to find the smallest value passed in
     - max() is a built in function to find the largest value passed in
@@ -24,7 +23,6 @@ In this fourth iteration, I introduce some basic statistics using Python.
 # Did you find statistics.stdev()?
 
 import statistics
-
 
 #####################################
 # Declare global variables

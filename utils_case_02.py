@@ -5,12 +5,9 @@ Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
 This module provides a simple, reusable foundation for my analytics projects. 
 
 Process:
-
 In this second iteration, add a function that returns the byline as a string.
-
 I'll create a function named get_byline().
 It'll return my byline to whatever calls the get_byline() function. 
-   
 I'll update the main() function to use the new get_byline() function. 
 
 Same conditional boilerplate at the end. 

@@ -5,9 +5,7 @@ Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
 This module provides a simple, reusable foundation for my analytics projects. 
 
 Process:
-
 In this third iteration, I declare additional variables to show skills with different data types.
-
 '''
 
 #####################################

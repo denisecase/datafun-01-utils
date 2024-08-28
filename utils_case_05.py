@@ -5,7 +5,6 @@ Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
 This module provides a simple, reusable foundation for my analytics projects. 
 
 Process:
-
 In this iteration, I enhance the byline to include calculated statistics. 
 This makes the byline more informative and professional, 
 ready for use in future projects.
