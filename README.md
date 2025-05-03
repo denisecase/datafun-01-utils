@@ -1,4 +1,44 @@
 # datafun-01-utils
-Reusable utilities for my Python projects
 
-Test Python Code Online at [Online Python](https://www.online-python.com)
+Reusable module for my Data Analytics Python projects
+
+## Project Requirements
+
+- VS Code
+- Git
+- Python 
+
+## Commands to Manage Virtual Environment
+
+For Windows PowerShell (change this if using Mac/Linux)
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\activate
+py -m pip install --upgrade pip setuptools wheel
+py -m pip install --upgrade -r requirements.txt
+```
+
+## Commands to Git add-commit-push
+
+```shell
+git add .
+git commit -m "custom message"
+git push -u origin main
+```
+
+## Reference Project
+
+Custom implementation of the example reusable Python module project at 
+[datafun-01-util](https://github.com/denisecase/datafun-01-utils)
+
+## Markdown Notes
+
+- A Markdown title starts with: hash space
+- A Markdown second-level heading starts with: hash hash space
+- A Markdown un-ordered list starts with: dash space
+- A Markdown ordered list start with: 1. space
+- Markdown code fencing uses three **back tics** on their own line to display code and commands.
+- Markdown **bold text** is surrounded by: two asterisks
+- Markdown *underline text* is surrounded by: one asterisk
+- Markdown is critical for project README files, Jupyter Notebooks, and writing papers with 
