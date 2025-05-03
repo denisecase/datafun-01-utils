@@ -7,11 +7,13 @@ Description: This module provides a byline for my analytics projects.
 When we work hard to write useful code, we want it to be reusable.
 A good byline could be used in every Python analytics project we do.
 
+Advanced: This version requires a working .venv with loguru and pyttsx3 installed.
+It includes a function to read the byline aloud using pyttsx3.
+
 Author: Denise Case
 
-TODO: Change module name in this opening docstring to YOURS
-TODO: Change author in this opening docstring to YOURS
-TODO: Remove these TODOS after you have completed them.
+TODO: Change the module name in this opening docstring
+TODO: Change the author in this opening docstring
 """
 
 #####################################
@@ -19,10 +21,22 @@ TODO: Remove these TODOS after you have completed them.
 #####################################
 
 # Import helpful modules from the Python Standard library
-# See more at: https://docs.python.org/3/library/
+# Learn more: https://docs.python.org/3/library/
 
-import statistics
+import statistics 
 
+# Import packages from requirements.txt
+# Learn more: https://pypi.org/project/loguru/ 
+# Learn more:  https://pypi.org/project/pyttsx3/
+import loguru   # Easy logging
+import pyttsx3  # Text-to-speech engine
+
+#####################################
+# Configure Logger and Verify
+#####################################
+
+loguru.logger.add("project.log", level="INFO", rotation="100 KB") 
+loguru.logger.info("Module loaded.")
 
 #####################################
 # Declare Global Variables
@@ -94,6 +108,15 @@ def get_byline() -> str:
     '''
     return byline
 
+
+# Read the byline aloud (requires pyttsx3)
+
+def read_byline_aloud():
+    engine = pyttsx3.init()
+    engine.say(get_byline())
+    engine.runAndWait()
+
+
 #####################################
 # Define main function for this module.
 #####################################
@@ -111,8 +134,16 @@ def main() -> None:
     '''
 
     print("START main() in utils_case.py")
+    loguru.logger.info("START main() in utils_case.py")
+
     print(get_byline())
+    loguru.logger.info("Byline:\n" + get_byline())
+
+    # Uncomment to hear it read aloud:
+    read_byline_aloud()
+
     print("END main() in utils_case.py")
+    loguru.logger.info("END main() in utils_case.py")
 
 #####################################
 # Conditional Execution

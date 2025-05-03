@@ -145,7 +145,7 @@ wheel
 loguru
 
 # Environment variables management
-python-dotenv
+# python-dotenv
 
 # ======================================================
 # TEXT-TO-SPEECH

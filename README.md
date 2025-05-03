@@ -19,6 +19,13 @@ py -m pip install --upgrade pip setuptools wheel
 py -m pip install --upgrade -r requirements.txt
 ```
 
+## Commands to Run Python Script
+
+```shell
+py utils_case.py
+py utils_case_advanced.py
+```
+
 ## Commands to Git add-commit-push
 
 ```shell
