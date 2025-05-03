@@ -8,9 +8,13 @@ Reusable module for my Data Analytics Python projects
 - Git
 - Python 
 
+## Workflow
+
+See [pro-analytics-01](https://github.com/denisecase/pro-analytics-01/)
+
 ## Commands to Manage Virtual Environment
 
-For Windows PowerShell (change this if using Mac/Linux)
+For Windows PowerShell (change if using Mac/Linux)
 
 ```powershell
 py -m venv .venv

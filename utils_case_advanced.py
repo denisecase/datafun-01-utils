@@ -12,8 +12,9 @@ It includes a function to read the byline aloud using pyttsx3.
 
 Author: Denise Case
 
-TODO: Change the module name in this opening docstring
-TODO: Change the author in this opening docstring
+TODO: Change the module name in this opening docstring to use your name instead of case. 
+TODO: Change the author in this opening docstring to your name or alias. 
+TODO: Remove these TODOS after you have completed them.
 """
 
 #####################################
@@ -35,8 +36,9 @@ import pyttsx3  # Text-to-speech engine
 # Configure Logger and Verify
 #####################################
 
-loguru.logger.add("project.log", level="INFO", rotation="100 KB") 
-loguru.logger.info("Module loaded.")
+logger = loguru.logger
+logger.add("project.log", level="INFO", rotation="100 KB") 
+logger.info("Logger loaded.")
 
 #####################################
 # Declare Global Variables

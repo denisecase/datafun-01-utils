@@ -9,8 +9,8 @@ A good byline could be used in every Python analytics project we do.
 
 Author: Denise Case
 
-TODO: Change module name in this opening docstring to YOURS
-TODO: Change author in this opening docstring to YOURS
+TODO: Change the module name in this opening docstring to use your name instead of case. 
+TODO: Change the author in this opening docstring to your name or alias. 
 TODO: Remove these TODOS after you have completed them.
 """
 
