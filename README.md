@@ -49,3 +49,7 @@ Custom implementation of the example reusable Python module project at
 - Markdown **bold text** is surrounded by: two asterisks
 - Markdown *underline text* is surrounded by: one asterisk
 - Markdown is critical for project README files, Jupyter Notebooks, and writing papers with 
+
+## Example Screenshots
+
+![VS Code While Working](images/vs_code_while_working.png)
