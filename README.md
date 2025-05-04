@@ -52,7 +52,7 @@ Custom implementation of the example reusable project at
 - Markdown code fencing uses three **back tics** on their own line to display code and commands.
 - Markdown **bold text** is surrounded by: two asterisks
 - Markdown *underline text* is surrounded by: one asterisk
-- Markdown is critical for project README files, Jupyter Notebooks, and writing papers with 
+- Markdown is critical for project README files, Jupyter Notebooks, and writing technical papers with Sphinx
 
 ## Example Screenshots
 
