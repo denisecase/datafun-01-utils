@@ -40,7 +40,7 @@ git push -u origin main
 
 ## Reference Project
 
-Custom implementation of the example reusable Python module project at 
+Custom implementation of the example reusable project at 
 [datafun-01-util](https://github.com/denisecase/datafun-01-utils)
 
 ## Markdown Notes
