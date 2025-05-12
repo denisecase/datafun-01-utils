@@ -28,8 +28,8 @@ import statistics
 # Declare Global Variables
 #####################################
 
-# declare a boolean variable (has a value True or False)
-# TODO: Add another or replace this with your own boolean variable
+# declare a boolean variables (have a value True or False)
+# TODO: Add another boolean variable before this one
 has_international_clients: bool = True
 
 # declare integer variables
@@ -56,8 +56,8 @@ mean_score: float = statistics.mean(client_satisfaction_scores)
 stdev_score: float = statistics.stdev(client_satisfaction_scores)
 
 # Use a Python formatted string (f-string) to show information
-# TODO: Modify the text in the byline to describe your information
-# TODO: Modify the variables in the byline to use your variable names
+# TODO: Modify the TEXT in the byline to describe your information
+# TODO: Modify the VARIABLE NAMES in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
