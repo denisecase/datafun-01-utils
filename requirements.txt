@@ -103,6 +103,20 @@
 #    in the bottom-left corner of the VS Code window in the status bar.
 
 # ======================================================
+# STEP E: OPTIONAL: If Using Notebook, Select Kernel
+# ======================================================
+# To select a kernel (Python environment) for your notebook in Visual Studio Code, 
+# click on the Select Kernel name in the top-right corner of the notebook 
+# interface and choose the desired kernel from the dropdown menu. 
+# Follow any suggestions to install recommended extensions. 
+# Once installed, click "Select Kernel" / "Python Environments" and choose the 
+# recommended (.venv) option created for the project. 
+# This will create a new kernel for the notebook and allow you to run code
+# in the notebook using the packages installed in the virtual environment.
+# After installing any new packages, you may need to close all instances of VS Code
+# and restart completely to have your updated environment take effect. 
+
+# ======================================================
 # COMMON STANDARD LIBRARY MODULES (NO INSTALL REQUIRED)
 # ======================================================
 # These modules are built into Python and do NOT need to be installed.
@@ -155,167 +169,3 @@ loguru
 # ======================================================
 # Offline text-to-speech library for Python (1-15 MB)
 pyttsx3  
-
-# ======================================================
-# JUPYTERLAB + NOTEBOOK SUPPORT
-# ======================================================
-
-# Optional: Next-generation Jupyter IDE (~60-70 MB). Use if working in JupyterLab directly.
-# jupyterlab
-
-# Core Jupyter functionality required for running notebooks in VS Code (~50-60 MB).
-# jupyter
-
-# Kernel interface for Jupyter notebooks (required for proper kernel registration)
-# ipykernel
-
-# Core IPython shell for enhanced interactivity in notebooks (~10–15 MB).
-# ipython
-
-# Optional: Interactive widgets for Jupyter notebooks (sliders, dropdowns, etc.)
-# ipywidgets
-
-# ======================================================
-# EXCEL FILE READING AND WRITING
-# ======================================================
-
-# Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
-# Used by pandas and other libraries.
-# openpyxl
-
-# For writing advanced Excel files (.xlsx)
-# xlsxwriter
-
-# Only for reading older Excel files (.xls) since version 2
-# xlrd
-
-# Optional: For unified access to different spreadsheet formats
-# pyexcel
-
-# ======================================================
-# DATA STORAGE, TRANSFORMATION, AND ORCHESTRATION
-# ======================================================
-
-# SQLite database support (sqlite3 is built into Python, no install needed)
-
-# DuckDB: A lightweight, serverless OLAP database for Python (5-10 MB).
-# duckdb
-
-# ORM for SQL databases (~10 MB) such as PostgreSQL, MySQL, and SQLite
-# sqlalchemy  
-
-# DBT Core: SQL-based transformation tool (~60-80 MB)
-# dbt-core
-
-# DBT DuckDB Adapter: Allows dbt to run on DuckDB (~20-30 MB)
-# dbt-duckdb
-
-# SQLMesh: Alt. to DBT for declarative data transformations in SQL, Python (~30–50 MB)
-# sqlmesh
-
-# Workflow orchestration for Python tasks (~30-50 MB)
-# prefect>=2.0
-
-# ======================================================
-# DATA ANALYSIS 
-# ======================================================
-
-# Numerical computations and arrays (20-30 MB)
-# numpy
-
-# Data manipulation and analysis (built on numpy, 10-20 MB)
-# pandas
-
-# High-performance DataFrame library for large datasets (Rust-based, fast) (~5-10 MB)
-# polars
-
-# ======================================================
-# VISUALIZATION
-# ======================================================
-
-# Core library for creating visualizations (~30 MB)
-# matplotlib
-
-# Statistical data visualization library built on matplotlib (~2-5 MB)
-# seaborn
-
-# Interactive plotting library, often used with Shiny apps (~20-25 MB)
-# plotly
-
-# ======================================================
-# CONTINUOUS INTELLIGENCE AND INTERACTIVE ANALYTICS
-# ======================================================
-
-# Shiny framework for Python applications (~5-10 MB)
-# shiny
-
-# ======================================================
-# KAFKA STREAMING MESSAGE BROKER INTEGRATION
-# ======================================================
-
-# Apache Kafka Python client (~1 MB)
-# kafka-python-ng
-
-# ======================================================
-# STREAM PROCESSING - CAN BE VERY LARGE
-# ======================================================
-
-# Streaming data processing framework (~200-250 MB)
-# Python compatibility varies by Spark version. Check the official documentation.
-# Currently requires Python <3.12, e.g. 3.11
-# pyspark<4.0.0
-
-# Alternative lightweight parallel computing framework
-# dask  
-
-# ======================================================
-# MACHINE LEARNING (ML) and STATISTICAL MODELING
-# ======================================================
-
-# Statistical modeling and inference (~10-15 MB)
-# statsmodels
-
-# Core ML library with flexible APIs (~40-50 MB)
-# scikit-learn
-
-# ======================================================
-# NATURAL LANGUAGE PROCESSING (NLP) - CAN BE VERY LARGE
-# ======================================================
-
-# NLP library for text processing (~10 MB core library; downloading corpora can add ~1 GB).
-# nltk
-
-# SpaCy: A powerful NLP library ~50 MB (core library; language models + ~300 MB or more per model).
-# Currently requires Python <=3.12
-# spacy<3.7
-
-# ======================================================
-# SENDING ALERTS via Simple Email or SMS Text using Gmail
-# ======================================================
-
-# These packages allow sending email or SMS alerts from Python.
-# They require additional configuration before use.
-
-# See setup instructions at:
-# https://pypi.org/project/dc-mailer/ or https://github.com/denisecase/dc-mailer
-# https://pypi.org/project/dc-texter/ or https://github.com/denisecase/dc-texter
-
-# Uncomment the necessary package(s) to send email or SMS alerts.
-# dc-mailer
-# dc-texter
-
-# ======================================================
-# API + dev server
-# ======================================================
-
-# Lightweight API server for building RESTful APIs and web applications (10-20 MB)
-# fastapi  
-
-# Rate limiting
-# slowapi
-
-# ASGI server to run FastAPI applications (10-20 MB)
-# uvicorn   
-
-# For request validation and serialization in FastAPI (5-10 MB)
-# pydantic     
